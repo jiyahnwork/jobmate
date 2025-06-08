@@ -9,8 +9,6 @@ export default function LanguageSwitcher() {
 
   const handleLanguageChange = (value: string) => {
     setLanguage(value)
-    // Here you would typically update the app's language context
-    console.log("Language changed to:", value)
   }
 
   return (
